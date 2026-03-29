@@ -1,0 +1,33 @@
+'''
+Unit 3:
+Lesson 3: 
+
+Calculating the weekly pay of an employee
+
+
+
+'''
+print("-" * 50, "\n",)
+print("First Name Last name")
+print("Date ")
+print("Class period ")
+print('Unit 3 Lesson 3:  Input exercise 3')
+print("-" * 50, "\n",)
+
+
+
+# --------------------------Variables ---------------------------------
+hours_worked = 0
+hourly_rate = 0
+weekly_pay = 0
+
+# --------------------------Input ---------------------------------
+print("Enter the number of hours worked in a week: ")
+hours_worked = int(input()) # ---- this is where the user will input the number of hours worked in a week
+
+print("Enter the hourly pay rate: ")
+hourly_rate = int(input()) # ---- this is where the user will input the hourly pay rate
+
+print("the weekly pay is ")
+weekly_pay = hours_worked * hourly_rate # ---- this is where the weekly pay is calculated by multiplying the number of hours worked in a week by the hourly pay rate
+print(weekly_pay) # ---- this is where the weekly pay is printed to the user
