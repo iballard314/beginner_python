@@ -1,0 +1,34 @@
+'''
+Unit 3:
+Lesson 3: 
+
+Calculating the area of a rectangle
+
+
+
+'''
+print("-" * 50, "\n",)
+print("First Name Last name")
+print("Date ")
+print("Class period ")
+print('Unit 3 Lesson 3:  Input exercise 2')
+print("-" * 50, "\n",)
+
+
+
+# --------------------------Variables ---------------------------------
+height = 0
+width = 0
+area = 0
+
+# --------------------------Input ---------------------------------
+print("Enter the length of the height of the rectangle: ")
+height = int(input()) # ---- this is where the user will input the length of the height of the rectangle
+
+print("Enter the length of the width of the rectangle: ")
+width = int(input()) # ---- this is where the user will input the length of the width
+
+print("the area is ")
+area = height * width # ---- this is where the area of the rectangle is calculated by multiplying the length of the height by the length of the width
+print(area) # ---- this is where the area of the rectangle is printed to the user
+
