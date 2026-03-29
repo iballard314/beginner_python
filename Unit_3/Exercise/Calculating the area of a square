@@ -1,0 +1,34 @@
+'''
+Unit 3:
+Lesson 3: 
+
+Calculating the area of a square
+
+
+
+'''
+print("-" * 50, "\n",)
+print("First Name Last name")
+print("Date ")
+print("Class period ")
+print('Unit 3 Lesson 3:  Input exercise 1')
+print("-" * 50, "\n",)
+
+# --------------------------Variables ---------------------------------
+
+side = 0
+area = 0
+
+# --------------------------Input ---------------------------------
+
+print("Enter the length of the side of the square: ")
+
+side = int(input()) # ---- this is where the user will input the length of the side of the square
+print("the area is ")
+
+area = side * side # ---- this is where the area of the square is calculated by multiplying the length of the side by itself
+print(area) # ---- this is where the area of the square is printed to the user
+
+
+
+
