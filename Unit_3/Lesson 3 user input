@@ -1,0 +1,21 @@
+'''
+Unit 3 Lesson 3:  Input
+
+we have learned that variables can be assigned a value like this:
+variable_name = value
+
+now we will learn how to get input from the user and assign it to a variable
+'''
+
+# --- you can set the variable to the input function like this:
+
+num1 = input()
+# --- it is important to tell the user what to input, so we will print a message before the input function like this:
+
+print("Enter a number: ")
+num2 = input()
+
+# --- the input function will always return a string, so if we want to use the input as a number, we need to convert it to an integer like this:
+
+print("Enter a number: ")
+num3 = int(input()) # --- this is where the user will input a number and it will be converted to an integer and assigned to the variable num3
